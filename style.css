@@ -4,6 +4,7 @@
 
 /* 1. Check the ratio of the background color and the color of the text.
     We want the ratio 4:1 or higher. What is it? */
+/* 1.02:1 */
 
 
 /* 2. Change the background color so that it contrasts well with the text. 
@@ -13,20 +14,32 @@
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
 body {
-    background-color: #d93f3f;
-    color: #eb2626;
+	background-color: #ffffff;
+	color: #eb2626;
 }
 
 
 .food-pic {
-    width: 200px;
+	width: 100px;
+}
+
+.food-display {
+	display: flex;
+	justify-content: center;
 }
 
 .title {
-    text-align: center;
-    color: #eb2626;
-    border: #eb2626 solid 5px;
-    border-radius: 30px;
-    font-family: 'Italianno', cursive;
-    font-size: 90px;
+	text-align: center;
+	color: #f7f7f7;
+	background-color: #eb2626;
+	border: #9a1919 solid 5px;
+	border-radius: 30px;
+	font-family: 'Italianno', cursive;
+	font-size: 90px;
+}
+
+.description {
+	text-align: center;
+	color: #9a1919;
+	font-family: 'Helvetica', sans-serif;
 }
