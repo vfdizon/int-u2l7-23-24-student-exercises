@@ -38,6 +38,18 @@ body {
 	font-size: 90px;
 }
 
+.header {
+	width: 25%;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	background-color: #264d00;
+	border: #9a1919 solid 2px;
+	border-radius: 15px;
+	font-family: 'Italianno', cursive;
+	font-size: 30px;
+}
+
 .description {
 	text-align: center;
 	color: #9a1919;
